@@ -4,8 +4,8 @@
 
 Acest repository contine doua framework-uri de testare automata dezvoltate in Java:
 
-- Framework de testare UI pentru platforma SauceDemo
-- Framework de testare API pentru platforma Practice Software Testing
+- Framework de testare UI pentru platforma SauceDemo (https://www.saucedemo.com/)
+- Framework de testare API pentru platforma Practice Software Testing (https://api.practicesoftwaretesting.com/api/documentation)
 
 Tehnologii utilizate:
 
@@ -34,9 +34,11 @@ Apoi din IntelliJ (src\test\resources) rulare fisier `testng_ui.xml` sau `testng
 
 Framework-ul UI valideaza functionalitatea de autentificare pentru platforma SauceDemo folosind Selenium WebDriver si arhitectura Page Object Model.
 
+Framework-ul acopera atat scenariile de autentificare, cat si un flux complet de achizitie a unui produs (end-to-end checkout flow).
+
 #### Scenarii automate implementate
 
-Au fost automatizate urmatoarele cazuri de test pentru login:
+Au fost automatizate urmatoarele cazuri de test:
 
 1. Login valid cu credentiale corecte
 2. Login cu parola invalida
