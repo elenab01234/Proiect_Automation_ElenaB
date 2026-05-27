@@ -24,6 +24,7 @@ Framework-ul include teste automate UI si API, organizate separat, cu rulare pri
 #### Instalare si Rulare teste
 
 Pentru rularea testelor este necesara instalarea Java, Intellij si Mavem.
+
 Apoi din IntelliJ(\src\test\resources) rulare fisier testng_ui.xml sau testng_ui.xml.
 
 ---
