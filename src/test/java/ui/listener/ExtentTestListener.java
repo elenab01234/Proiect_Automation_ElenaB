@@ -30,7 +30,6 @@ public class ExtentTestListener extends TestListenerAdapter {
 
         ExtentTest extentTest = test.get();
         addTestLogs(result, extentTest);
-        extentTest.skip(result.getThrowable());
 
         test.get().pass("Test PASSED");
     }
