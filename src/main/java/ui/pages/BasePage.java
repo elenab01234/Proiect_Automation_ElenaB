@@ -1,10 +1,10 @@
-package pages;
+package ui.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import utils.DriverFactory;
-import utils.WaitUtils;
+import ui.utils.DriverFactory;
+import ui.utils.WaitUtils;
 
 
 public class BasePage {

@@ -9,7 +9,7 @@ import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.TestListenerAdapter;
-import utils.DriverFactory;
+import ui.utils.DriverFactory;
 
 import java.lang.reflect.Field;
 import java.nio.file.Path;

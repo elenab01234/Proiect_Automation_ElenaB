@@ -2,8 +2,8 @@ package ui.base;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import utils.ConfigReader;
-import utils.DriverFactory;
+import ui.utils.ConfigReader;
+import ui.utils.DriverFactory;
 
 
 public class BaseTest {

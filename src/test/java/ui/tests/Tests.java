@@ -3,8 +3,8 @@ package ui.tests;
 import ui.base.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.HomePage;
-import pages.LoginPage;
+import ui.pages.HomePage;
+import ui.pages.LoginPage;
 
 
 public class Tests extends BaseTest {
