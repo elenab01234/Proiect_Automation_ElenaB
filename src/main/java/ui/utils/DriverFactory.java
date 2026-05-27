@@ -5,7 +5,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class DriverFactory {
 
-    public static WebDriver driver;   // WebDriver has no get() method
+    public static WebDriver driver;
 
     public static void initDriver() {
         if (driver == null) {
