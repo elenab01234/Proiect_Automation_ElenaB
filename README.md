@@ -23,7 +23,7 @@ Framework-ul include teste automate UI si API, organizate separat, cu rulare pri
 ---
 #### Instalare si Rulare teste
 
-Pentru rularea testelor este necesara instalarea Java, Intellij si Mavem.
+Pentru rularea testelor este necesara instalarea Java, Intellij si Maven.
 
 Apoi din IntelliJ (src\test\resources) rulare fisier `testng_ui.xml` sau `testng_ui.xml`.
 
@@ -35,8 +35,6 @@ Apoi din IntelliJ (src\test\resources) rulare fisier `testng_ui.xml` sau `testng
 Framework-ul UI valideaza functionalitatea de autentificare pentru platforma SauceDemo folosind Selenium WebDriver si arhitectura Page Object Model.
 
 Framework-ul acopera atat scenariile de autentificare, cat si un flux complet de achizitie a unui produs (end-to-end checkout flow).
-
-#### Scenarii automate implementate
 
 Au fost automatizate urmatoarele cazuri de test:
 
