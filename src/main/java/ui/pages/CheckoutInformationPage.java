@@ -1,7 +1,7 @@
 package ui.pages;
 
-
 import org.openqa.selenium.By;
+
 
 public class CheckoutInformationPage extends BasePage {
 
