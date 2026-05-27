@@ -25,8 +25,9 @@ public class HomePage extends BasePage {
     }
 
    public void clickOnProductwithNLabel(String productName){
-        clickElement(By.xpath("//h5[contains(text(),'" + productName + "')]"));
+        clickElement(By.xpath("//div[text()='" + productName + "']"));
     }
+
 
     public boolean isHomePageDisplayed() {
         return driver.findElement(title).isDisplayed();

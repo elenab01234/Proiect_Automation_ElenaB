@@ -6,8 +6,8 @@ import org.openqa.selenium.By;
 public class ProductPage extends BasePage {
     private By prodName = By.xpath("//*[@data-test='product-name']");
     private By prodPrice = By.xpath("//*[@data-test='unit-price']");
-    private By addToCart = By.id("btn-add-to-cart");
-    private By goToCart = By.xpath("//*[@data-test='cart-quantity']");
+    private By addToCart = By.xpath("//button[contains(@id,'add-to-cart')]");
+    private By goToCart = By.className("shopping_cart_link");
 
     public String getProductName() {
         return extractText(prodName);

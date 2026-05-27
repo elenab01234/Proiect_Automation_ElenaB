@@ -43,6 +43,7 @@ Au fost automatizate urmatoarele cazuri de test pentru login:
 3. Login cu username invalid
 4. Login fara username
 5. Login fara parola
+6. Plasare comanda completa (end-to-end flow)
 
 #### Site testat
 
