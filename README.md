@@ -45,10 +45,6 @@ Au fost automatizate urmatoarele cazuri de test:
 5. Login fara parola
 6. Plasare comanda completa (end-to-end flow)
 
-#### Site testat
-
-https://www.saucedemo.com/
-
 ---
 
 #### Automation Testing API - PracticeSoftwareTesting
@@ -70,9 +66,5 @@ Au fost automatizate urmatoarele cazuri de test:
 - Login utilizator: `POST /users/login`
 - Adaugare produs in cos: `POST /carts`
 - Obtinere produs dupa ID: `GET /products/{id}`
-
-#### Site testat
-
-https://api.practicesoftwaretesting.com/api/documentation
 
 ---
